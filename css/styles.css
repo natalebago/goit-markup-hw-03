@@ -1,0 +1,259 @@
+:root{
+  --primary-text-color: #434455;
+  --titile-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --body-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --color-grey: #2e2f42;
+  --color-ocean: #404bbf;
+  --color-green: #31doaa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+  
+/**------------- Header ---------------*/
+  
+.header {
+  background-color: #ffffff;
+}
+  
+.header-nav {
+  font-style: normal;
+}
+
+.color-logo  {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+}
+
+.logo-titel {
+color: var(--titile-text-color);
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.header-item .link{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-link {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: var(--color-grey);
+}
+
+.header-link:is(:hover, :focus){
+  color: #404bbf ;
+}
+
+.address:is(:hover, :focus) {
+  color:#404bbf;
+  }
+
+.header-address {
+  font-style: normal;
+  color: var(--primary-text-color)
+}
+
+
+.address  {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.address {
+ color:  #434455;
+}
+
+
+/**------------- Section About---------------*/
+.about {
+background-color: var(--titile-text-color);
+}
+.about-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.about-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+.about-btn:is(:hover, :focus) {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
+.about-btn {
+  cursor: pointer;
+}
+/**------------- Section Benefits---------------*/
+
+.benefits-title {
+  visibility: hidden;
+  }
+
+.benefits-item {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--titile-text-color);
+}
+
+.benefits-item-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  
+}
+
+.benefits-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+
+/**------------- Section Services---------------*/
+
+
+.services-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--titile-text-color);
+}
+
+/**------------- Section Hero---------------*/
+
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--titile-text-color);
+}
+
+
+
+.hero-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--titile-text-color);
+}
+
+.hero-item-text {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+/**------------- Portfolio ---------------*/
+.navigation {
+  background: #FFFFFF;
+}
+
+.navigation-btn  {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+  cursor: pointer;
+}
+
+
+.navigation-btn:is(:hover, :focus) {
+  color: #F4F4FD;;
+  background-color: #404BBF;
+} 
+
+.services-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-grey);
+}
+
+.services-bottom-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+/**------------- Footer ---------------*/
+ .footer {
+  background-color: #2e2f42;
+  }
+  
+
+ .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
+  }
