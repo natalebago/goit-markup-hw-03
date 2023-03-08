@@ -24,7 +24,7 @@ body {
 /**------------- Header ---------------*/
   
 .header {
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
   
 .header-nav {
@@ -51,7 +51,7 @@ color: var(--titile-text-color);
 
 .header-item .link{
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -68,11 +68,11 @@ color: var(--color-grey);
 }
 
 .header-link:is(:hover, :focus){
-  color: #404bbf ;
+  color: var(--color-ocean) ;
 }
 
 .address:is(:hover, :focus) {
-  color:#404bbf;
+  color: var(--color-ocean);
   }
 
 .header-address {
@@ -92,7 +92,7 @@ color: var(--primary-text-color);
 }
 
 .address {
- color:  #434455;
+ color: var(--primary-text-color);
 }
 
 
@@ -122,11 +122,12 @@ color: #FFFFFF;
 
 .about-btn:is(:hover, :focus) {
   color: #FFFFFF;
-  background-color: #404BBF;
+  background-color: var(--color-ocean);
 }
 
 .about-btn {
   cursor: pointer;
+   background-color: var(--accent-color);
 }
 /**------------- Section Benefits---------------*/
 
@@ -135,24 +136,19 @@ color: #FFFFFF;
   }
 
 .benefits-item {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: var(--titile-text-color);
 }
 
 .benefits-item-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--titile-text-color);
   
 }
 
 .benefits-text {
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -174,7 +170,9 @@ color: var(--primary-text-color);
 }
 
 /**------------- Section Hero---------------*/
-
+.hero{
+  background: #F4F4FD;
+}
 
 .hero-title {
   font-weight: 700;
@@ -220,14 +218,14 @@ color: var(--primary-text-color);
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4D5AE5;
+  color: var(--accent-color);
   cursor: pointer;
 }
 
 
 .navigation-btn:is(:hover, :focus) {
   color: #F4F4FD;;
-  background-color: #404BBF;
+  background-color: var(--color-ocean);
 } 
 
 .services-item-title {
@@ -239,6 +237,7 @@ color: var(--color-grey);
 }
 
 .services-bottom-text {
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -247,11 +246,12 @@ color: var(--primary-text-color);
 
 /**------------- Footer ---------------*/
  .footer {
-  background-color: #2e2f42;
+  background-color: var(--color-grey);
   }
   
 
  .footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
